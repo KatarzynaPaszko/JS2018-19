@@ -20,3 +20,6 @@ function indexesOfHighest(array){
 console.log(indexesOfHighest(arrayOfNumbers));
 
 // [5, 9, 11]
+let highest = Math.max(...arrayOfNumbers);
+let indexers = arrayOfNumbers.map((el, i) => el === highest ? i : 0)
+                             .filter(el => el);
