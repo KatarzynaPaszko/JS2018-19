@@ -20,3 +20,6 @@ function findMinAndMax(array){
 } 
 findMinAndMax(numbersArray);
 // Min number is 1 and Max number is 98
+
+
+let max2 = Math.max(...numbersArray);
